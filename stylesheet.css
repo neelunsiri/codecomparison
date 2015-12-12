@@ -7,8 +7,12 @@ table {
   
 }
 img {
-    height: auto; 
-    width: auto; 
-    max-width: 50px; 
-    max-height: 50px;
+    height:auto; 
+    width:auto; 
+    max-width:50px; 
+    max-height:50px;
+}
+
+tourstart {
+  text-align:center;
 }

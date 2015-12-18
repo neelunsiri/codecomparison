@@ -39,5 +39,11 @@
       <p class="code">body {<br>&emsp;background-color:green;<br>}<br><br>p {<br>&emsp;font-family:Impact;<br>&emsp;font-size:26px;<br>}</p>
       <p>This program, when linked to an HTML document, will make the background colour of the page green, and the font of every paragraph on the page, except declared exceptions, have text that is 26 font-size Impact font.</p>
     </div>
+    <div>
+      <h2>Example Program in JavaScript</h2>
+      <p class="code">function typeThis() {<br>&emspvar whatToSay=document.getElementById("input").value;<br>&emspdocument.getElementById("paragraphText").innerHTML=whatToSay;<br>}</p>
+      <p>This JavaScript program, when named <i>script,js</i> and linked to an HTML program that looks something like the following, takes whatever the user types in the text box, and, when the button is clicked, displays it just below the text box and button.</p>
+      <p class="code">&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&emsp;&lt;head&gt;<br>&emsp;&emsp;&lt;title&gt;My JavaScript Program!&lt;/title&gt;<br>&emsp;&emsp;&lt;script src="script.js"&gt;&lt;script&gt;<br>&emsp;&lt;/head&gt;<br>&emsp;&lt;body&gt;<br>&emsp;&emsp;&lt;input type="text" id="input"&gt;&lt;/input&gt;<br>&emsp;&emsp;&lt;button onclick="typeThis()"&gt;Type it!&lt;/button&gt;<br>&emsp;&emsp;&lt;br&gt;<br>&emsp;&emsp;&lt;p id="paragraphText"&gt;Please type something in the box and click "Type it".&lt;/p&gt;<br>&emsp;&lt;/body&gt;<br>&lt;/html&gt;</p>
+    </div>
   </body>
 </html>

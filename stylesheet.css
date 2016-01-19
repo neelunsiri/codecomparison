@@ -6,6 +6,10 @@ body {
   background-color:white;
 }
 
+p.copy {
+  font-size: 10px;
+}
+
 #main {
    position: absolute;
    width: 60%;

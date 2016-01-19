@@ -2,10 +2,6 @@
   margin:auto;
 }
 
-footer {
-  line-height:100%;
-}
-
 body {
   background-color:white;
 }
@@ -36,4 +32,8 @@ img {
   color:green;
   font-family:Courier;
   line-height:normal;
+}
+
+footer {
+  line-height:100%;
 }

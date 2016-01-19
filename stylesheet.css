@@ -1,6 +1,16 @@
 body {
-  background-color:#40E0D0;
-  line-height:150%;
+  background-color:white;
+}
+
+#main {
+   position: absolute;
+   width: 60%;
+   top: 0;
+   left: 20%;
+   background-color: #40E0D0;
+   color: white;
+   min-height:100%;
+   line-height:150%;
 }
 
 img {

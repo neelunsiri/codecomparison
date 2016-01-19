@@ -3,21 +3,12 @@
 }
 
 body {
-  background-image:url("images/background.jpg");
+  background-color:#40E0D0;
+  line-height:150%;
 }
 
 p.copy {
   font-size: 10px;
-}
-
-#main {
-   position: absolute;
-   width: 60%;
-   top: 0;
-   left: 20%;
-   background-color: #40E0D0;
-   min-height:100%;
-   line-height:150%;
 }
 
 img {

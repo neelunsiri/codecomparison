@@ -28,3 +28,7 @@ img {
 footer {
   line-height:100%;
 }
+
+#comparisonTable {
+  border:1px solid black;
+}

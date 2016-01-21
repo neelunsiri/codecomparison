@@ -29,6 +29,6 @@ footer {
   line-height:100%;
 }
 
-#comparisonTable {
+#comparisonTable, #comparisonTable.tr.td {
   border:1px solid black;
 }

@@ -1,10 +1,5 @@
-* {
-  margin:auto;
-}
-
 body {
   background-color:#40E0D0;
-  line-height:150%;
 }
 
 p.copy {
@@ -27,4 +22,31 @@ img {
 
 footer {
   line-height:100%;
+}
+.programming-users 
+{
+  display: inline;
+  padding: 5px;
+  margin: 15px;
+  border: 14px solid blue;
+
+}
+
+#tours {
+  background-color: orange;
+  padding: 20px;
+  border: 1px solid black;
+  width: 150px;
+}
+
+#code-comparison {
+  background-color: blueviolet;
+  padding: 13px;
+  border: 2px dashed coral;
+  width:250px;      
+}
+@media screen and (max-width:300px){
+  code-comparison{
+    padding:20px;
+  }
 }
